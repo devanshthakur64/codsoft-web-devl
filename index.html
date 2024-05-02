@@ -1,252 +1,98 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Devansh Singh - Frontend Web Developer </title>
-    <link rel="icon" type="image/x-icon" href="file:///C:/Users/hp/OneDrive/Desktop/dev%20pics/pic%202.jpg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta charset="utf-8">
+    <title>Simple Web Calculator</title>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <link type="text/css" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link type="image/png" rel="shortcut icon" href="imgs/favicon.png">
 </head>
+
 <body>
-
-    <!-- Navbar Section -->
-    <nav id="navbar" class="flex s-around bg-color">
-        <div class="left-nav">
-            <h2 class="t-white">Devansh Singh</h2>
-        </div>
-        <div class="right-nav">
-            <ul class="flex">
-                <li><a href="#home" class="t-white roboto">Home</a></li>
-                <li><a href="#about" class="t-white roboto">About Me</a></li>
-                <li><a href="#skills" class="t-white roboto">Skills</a></li>
-                <li><a href="#services" class="t-white roboto">services</a></li>
-                <li><a href="#projects" class="t-white roboto">Projects</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Bottom Navigator -->
-    <section id="bottom">
-        <div class="bottom-nav flex s-center items-center">
-            <ul class="flex s-around items-center">
-                <a href="#home">
-                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
-                </a>
-                <a href="#about">
-                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
-                </a>
-                <a href="#skills">
-                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
-                </a>
-                <a href="#services">
-                    <li class="bottomo-hover flex s-center items-center">
-                        <i class="fa-solid fa-rocket"></i>
-                    </li>
-                </a>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Home Section -->
-    <section id="home" class="flex s-around sw-80 m-auto">
-        <div class="home-left flex items-center">
-            <div class="home-content">
-                <h6 class="poppinss">Hi, I'm</h6>
-                <h1 class="t-white">Devansh Singh</h1>
-                <h4 class="poppinss">Frontend Web Developer</h4>
-                <a href="#" target="_blank"><button
-                        class="btn poppins">Resume</button></a>
-                <a class="btn live poppins" id="hireme" href="https://www.linkedin.com/in/devansh-singh-8a431a231/"
-                    target="_blank">Let's Talk</a>
-            </div>
-        </div>
-        <div class="home-right flex s-center items-center">
-            <div class="circle flex s-center items-center" id="mainImage">
-                <!-- Here in src replace the given link with your image link -->
-                <img src= "file:///C:/Users/hp/OneDrive/Desktop/dev%20pics/pic%202.jpg" width="200"      height="300"> </img>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h1 class="t-center my-2 t-white f-2">About Me</h1>
-        <div class="about-container flex s-around ">
-            <div class=" about-left flex s-center items-center">
-                <!-- Here in src replade the given link with your secondary image link -->
-                <img src="file:///C:/Users/hp/OneDrive/Desktop/dev%20pics/pic%202.jpg" alt="" style="width: 50%;">
-            </div>
-
-            <div class="about-right flex">
-                <div class="about-content">
-                    <h1 class="t-white m-b-1 poppins">Devansh Singh</h1>
-                    <p class="t-white poppins">A self-tought Frontend Web Developer BCA student looking for
-                        an opportunity in Web Development. <br>
-                        Who is committed to study web development. Mindset to fullfill the life with
-                        wonderful memories and knowledge.</p>
-                    <a class="btn live poppins" id="hireme"
-                        href="https://www.linkedin.com/in/devansh-singh-8a431a231/">Hire Me</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h1 class="t-center my-2 t-white f-2">Skills</h1>
-        <div class="services-container flex s-around h-50"">
-        <div class=" skills-left flex s-center items-center">
-            <img src="/Images/skills.png" alt="">
-        </div>
-
-        <div class="skills-right flex items-center">
-            <div class="skillss-container">
-                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
-                        class="bar-content right-skills t-white">90%</span></div>
-                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
-                        class="bar-content right-skills t-white">80%</span></div>
-                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
-                        class="bar-content right-skills t-white">75%</span></div>
-                <div class="bootstrap bar p-relative"><span class="bar-content left t-white">Bootstrap</span><span
-                        class="bar-content right-skills t-white">50%</span></div>
-                <div class="reactjs bar p-relative"><span class="bar-content left t-white">ReactJs</span><span
-                        class="bar-content right-skills t-white">30%</span></div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h1 class=" t-center my-2 t-white f-2">Services</h1>
-        <div class="services-container flex s-center">
-            <div class="test-item flex f-col items-center">
-                <img src="./Images//developer.png" alt="">
-                <h1 class="t-white poppins">Web Development</h1>
-                <p class="t-white poppins">Web Development is envolving everywhere. Every startup and every bussines
-                    have their own websites. As my passion I will help you to build your clean and fast website for your
-                    startup or your bussines.</p>
-            </div>
-            
-            
-
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h1 class=" t-center my-2 t-white f-2">Projects</h1>
-        <div class="projects-container flex s-center">
-            <div class="projects-item flex f-col s-center items-center">
-                <div class="image-container p-one">
-                    <img src="./Images/weatherApp.png" alt="">
-                </div>
-                <h1 class="t-white poppins">A Simple Calculator</h1>
-                <p class="t-white poppins"> A Calculator using HTML, CSS and JavaScript. Fetch the numeric result.</p>
-                <div class="buttons flex s-around">
-                    <a href="#"
-                        target="_blanks" class="btn mx-1 m-top">GitHub</a>
-                    <a href="#" target="_blanks" class="btn m-top live">Live
-                        Link</a>
-                </div>
-            </div>
-            <div class="projects-item flex f-col s-center items-center">
-                <div class="image-container p-one">
-                    <img src="./Images/burgerKing.png" alt="">
-                </div>
-                <h1 class="t-white poppins">Watch King</h1>
-                <p class="t-white poppins">A simple landing page using HTML and CSS. This webiste is for watch shop who
-                    provides all the information of thir services at this landing page.</p>
-                <div class="buttons flex s-around">
-                    <a href="#" target="_blanks"
-                        class="btn mx-1 m-top">GitHub</a>
-                    <a href="#" target="_blanks" class="btn m-top live">Live
-                        Link</a>
-                </div>
-            </div>
-           
-            <div class="projects-item flex f-col s-center items-center">
-                <div class="image-container p-three">
-                    <img src="./Images/login.png" alt="">
-                </div>
-
-                <h1 class="t-white poppins">Login Form</h1>
-                <p class="t-white poppins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati cum
-                    nemo
-                    recusandae voluptas ipsum.s</p>
-                <div class="buttons flex s-around">
-                    <a href="#" target="_blank"
-                        class="btn mx-1 m-top">GitHub</a>
-                    <a href="#" target="_blank" class="btn m-top live">Live
-                        Link</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Contact Me Section -->
-    <section id="contact" class="m-b-1">
-        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
-        <div class="contact-container flex s-around items-centers">
-            <div class="form" id="contactForm">
-                <form action="" id="contactFrom">
-                    <div class="name form-div">
-                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+    <div id="container">
+        <section id="main">
+            <header><h1 id="title">Simple Web Calculator</h1></header>
+            <img src="imgs/limit-screen.png" id="skull" draggable="false">
+            <div id=calculator>
+                <div id="calculator-interface">
+                    <div id="calculator-screen">
+                        <div id="screen-top">
+                            <p id="nums-top"></p>
+                        </div>
+                        <div id="screen-bottom">
+                            <p id="nums-bottom">0</p>
+                        </div>
                     </div>
-                    <div class="email form-div">
-                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
-                            required>
+                    <div id="functional-container">
+                        <div id="negate" class="button">+/-</div>
+                        <div id="pi" class="button">π</div>
+                        <div id="euler" class="button">e</div>
+                        <div id="factorial" class="button">n!</div>
+                        <div id="ce" class="button">CE</div>
+                        <div id="del1" class="button">
+                            <img id="del2" src="imgs/delete.png" draggable="false">
+                        </div>
                     </div>
-                    <div class="phone form-div">
-                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
-                            required>
+                    <div id="nums-container">
+                        <div class="numbers-line">
+                            <div id="num7" class="button">7</div>
+                            <div id="num8" class="button">8</div>
+                            <div id="num9" class="button">9</div>
+                        </div>
+                        <div class="numbers-line">
+                            <div id="num4" class="button">4</div>
+                            <div id="num5" class="button">5</div>
+                            <div id="num6" class="button">6</div>
+                        </div>
+                        <div class="numbers-line">
+                            <div id="num1" class="button">1</div>
+                            <div id="num2" class="button">2</div>
+                            <div id="num3" class="button">3</div>
+                        </div>
+                        <div class="numbers-line">
+                            <div id="clear" class="button">C</div>
+                            <div id="num0" class="button">0</div>
+                            <div id="comma" class="button">,</div>
+                        </div>
                     </div>
-                    <div class="textarea form-div">
-                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
-                            placeholder="Enter Messages"></textarea>
+                    <div id="arithmetic-container">
+                        <div id="squareRoot" class="button">√</div>
+                        <div id="cubeRoot" class="button">∛</div>
+                        <div id="divide" class="button">÷</div>
+                        <div id="multiply" class="button">x</div>
+                        <div id="substract" class="button">-</div>
+                        <div id="sum" class="button">+</div>
+                        <div id="overX" class="button">1/x</div>
+                        <div id="squarePower" class="button">x²</div>
+                        <div id="equalTo" class="button">=</div>
                     </div>
-                    <button type="submit" class="btn poppins" id="submit">Send</button>
-                </form>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer id="footer">
-        <ul class="flex s-center w-80 m-auto my-2 res">
-            <li><a href="#home" class="poppinss">Home</a></li>
-            <li><a href="#about" class="poppinss">About</a></li>
-            <li><a href="#skills" class="poppinss">Skills</a></li>
-            <li><a href="#projects" class="poppinss">Projects</a></li>
-            <li><a href="#portfolio" class="poppinss">Portfolio</a></li>
-        </ul>
-        <ul class="flex s-center w-80 font-awesome ">
-            <a href="https://www.linkedin.com/in/devansh-singh-8a431a231/" target="_blank">
-                <li><i class="fa-brands fa-linkedin-in"></i></li>
-            </a>
-            <a href="" target="_blank">
-                <li><i class="fa-brands fa-github"></i></li>
-            </a>
-            <a href="" target="_blank">
-                <li><i class="fa-brands fa-instagram"></i></li>
-            </a>
-            
-        </ul>
-        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Devansh
-                Singh</span></p>
-
-    </footer>
-
-    <div id="scroll-top" onclick="scrolltop()">
-        <span><i class="fa-solid fa-arrow-up"></i></span>
+        </section>
     </div>
 
-</body>
-<script src="/script.js"></script>
+   
+    <footer id="footer">
+        <div id="logo-container">
+            <img src="imgs/calculator_img.png">
+        </div>
+        <div class="footer-third">
+            <h1>Need help?</h1>
+            <a id="terms">Terms &amp; Conditions</a>
+            <a id="privacy">Privacy Policy</a>
+        </div>
+    
+            <span>
+                This is a simple arithmetic web calculator, with some implementations of a scientific one.
+            </span>
+        </div>
+    </footer>
+    
 
+    <script src="script.js" type="text/javascript"></script>
+</body>
 </html>
